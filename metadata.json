@@ -1,0 +1,6 @@
+{
+  "name": "Business and Life Simulator",
+  "description": "An open-world business and life simulation game where players start with limited money, earn income, create companies, complete missions, buy land, and build houses while managing their own development.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
