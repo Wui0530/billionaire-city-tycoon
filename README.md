@@ -1,20 +1,47 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://ai.google.dev/static/site-assets/images/share-ais-513315318.png" />
-</div>
+# Billionaire City Tycoon
 
-# Run and deploy your AI Studio app
+一个 3D 城市大亨经营游戏，使用 React、Three.js 和 Vite 构建。
 
-This contains everything you need to run your app locally.
+## 功能
 
-View your app in AI Studio: https://ai.studio/apps/1109a371-a099-4782-bab4-8c4ae6755beb
+- 🎮 **3D 游戏场景** - 使用 Three.js 渲染
+- 🚶 **角色控制** - 使用 W/A/S/D 键移动
+- 🏢 **城市建筑** - 多个不同高度和颜色的建筑
+- 📱 **UI 界面** - 显示金钱、建筑数量和语言选项
+- 🎥 **摄像头控制** - 使用鼠标拖拽旋转视角
 
-## Run Locally
+## 快速开始
 
-**Prerequisites:**  Node.js
+### 安装依赖
 
+```bash
+npm install
+```
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+### 开发模式
+
+```bash
+npm run dev
+```
+
+### 生产构建
+
+```bash
+npm run build
+```
+
+## 控制方式
+
+- **W** - 向前移动
+- **A** - 向左移动  
+- **S** - 向后移动
+- **D** - 向右移动
+- **鼠标拖拽** - 旋转摄像头
+
+## 技术栈
+
+- React
+- Three.js
+- @react-three/fiber
+- @react-three/drei
+- Vite
